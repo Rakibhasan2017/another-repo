@@ -10,8 +10,9 @@ body{
 }
 .top-header{
     display: flex;
-    background-image: url(image/top-banner.png);
     background-repeat: no-repeat;
+    background-image: url(image/top-banner.png);
+    
 }
 .first{
     width: 50%;
@@ -31,7 +32,7 @@ body{
 .first  p {
         color: gray;
         margin: 2px;
-        padding-bottom: 13px;
+        padding-bottom: 29px;
     }
     .anker{
         text-decoration: none;
@@ -44,3 +45,28 @@ body{
         display: block;
         width: 85px;
        }
+       .top-header1{
+        display: flex;
+        padding-bottom: 20px;
+        background-image: url(image/dream-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        padding-top: 113px;
+        
+    
+       }
+       .top-header1 a{
+        width: 205px;
+        padding: 5px;
+        color: white;
+        font-weight: bold;
+        background-image: radial-gradient(orange,red);
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .top-header1 img {
+        padding: 0px 105px;
+    }
+  
